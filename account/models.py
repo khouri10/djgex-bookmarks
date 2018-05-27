@@ -25,4 +25,5 @@ class Contact(models.Model):
 
 
 # Add following field to User dynamically
-User.add_to_class('following', models.ManyToManyField('self', through=Contact, related_name='followers', symmetrical=False))
+User.add_to_class('following', models.ManyToManyField('self', through=Contact, 
+	related_name='followers', symmetrical=False))
