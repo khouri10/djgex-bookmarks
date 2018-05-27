@@ -24,6 +24,7 @@ SECRET_KEY = '-ocvjf&p1d%!))e)dpp_uu39s-+=)w&!*oc$vl48o@n*_1fh%2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+THUMBNAIL_DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -141,3 +142,4 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''
 ABSOLUTE_URL_OVERRIDES = {
     'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
 }
+
