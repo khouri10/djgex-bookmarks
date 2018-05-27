@@ -87,6 +87,9 @@ DATABASES = {
     }
 }
 
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
